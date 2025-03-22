@@ -1,0 +1,162 @@
+body {
+    font-family: Verdana, sans-serif;   
+    background-image: url('ruta/a/tu/imagen.jpg');
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imagen-titulo{
+    width: 50px;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.btnEnviar {
+    height: 45px;
+    width: 100px;
+    background-color: rgb(98, 219, 98);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnEnviar:hover {
+    transition: ease-in 0.2s;
+    background-color: rgb(51, 214, 51);
+}
+
+.txfCiudad {
+    width: 300px;
+    height: 45px;   
+    margin-right: 30px;
+    text-align: center;
+    font-size: 1.0em; 
+    border-radius: 10px;  
+    border-color: rgb(164, 168, 168);
+    border-style: solid;
+}
+
+.txfCiudad:hover{
+    transition: ease-in 0.2s;
+    border-color: black;
+}
+
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.weather-card {
+    background: linear-gradient(to bottom, #4c91d9, #6fc3df);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 5px auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-actions{
+    display: flex;
+    justify-content: end;
+}
+
+.weather-actions button {
+    border: none;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btnEliminar:hover {
+    transition: ease-in 0.2s;
+    background-color: rgb(227, 83, 83);
+}
+.btnEditar:hover {
+    transition: ease-in 0.2s;
+    background-color: rgb(255, 255, 0);
+}
+
+.btnEliminar img{
+    width: 25px;
+}
+
+.btnEditar img{
+    width: 25px;
+}
+
+.weather-icon {
+    font-size: 80px;
+}
+
+.weather-temp{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.city-name{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+    transform: scaleY(1.1);
+}
+
+.weather-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info-clima img{
+    width: 35px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.info-humedad img{
+    width: 30px;
+    height: 30px;
+}
+
+.info-clima {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: .90em;
+    margin-right: 10px;
+}
+
+.info-humedad{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 10px;
+    font-size: .90em;
+}
+
+.info-humedad img{
+    margin-right: 10px;
+}
+
+.info1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
